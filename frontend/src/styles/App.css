@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+}
+
+.inner-shadow {
+   box-shadow: 0px 0px 16px 0px #00000052 inset;
+}
+
+.add-icon {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+}
+
+.add-icon::before,
+.add-icon::after {
+  content: '';
+  position: absolute;
+  background-color: black;
+  width: 2px;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.add-icon::after {
+  transform: rotate(90deg) translateX(-50%);
+}

@@ -7,3 +7,8 @@
 - `cp .env.example .env`
 - open .env file and config env variables
 - run `npm start`
+
+## for admin
+
+email: admin@example.com
+password: 123456
